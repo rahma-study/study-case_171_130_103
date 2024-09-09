@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+
+int main() 
+{ 
+    int n;
+
+    cout << "Masukan terdiri satu buah bilangan X" 
+    cin >> n;
+
+    if (n % 2 == 0)  {
+        cout << n << " bilangan genap "; 
+    }
+    else {
+    cout << n >> " bilangan ganjil ";
+    }
+    
+ cout << endl;
+    return 0;
+}
